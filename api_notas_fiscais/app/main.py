@@ -39,12 +39,12 @@ async def startup_event():
     # Log seguro e formatado do ambiente
     masked_pwd = "*****" if config.ORACLE_PASSWORD else None
     app_logger.info("==========================================")
-    app_logger.info("🚀 API GraphQL Notas Fiscais iniciada!")
-    app_logger.info(f"📡 Host: {config.API_HOST}")
-    app_logger.info(f"🔌 Porta: {config.API_PORT}")
-    app_logger.info(f"🗄️  Oracle User: {config.ORACLE_USER}")
-    app_logger.info(f"🛠️  Oracle DSN: {config.ORACLE_DSN}")
-    app_logger.info(f"🔒 Oracle Password: {masked_pwd}")
+    app_logger.info("API GraphQL Notas Fiscais iniciada.")
+    app_logger.info(f"Host: {config.API_HOST}")
+    app_logger.info(f"Porta: {config.API_PORT}")
+    app_logger.info(f"Oracle User: {config.ORACLE_USER}")
+    app_logger.info(f"Oracle DSN: {config.ORACLE_DSN}")
+    app_logger.info(f"Oracle Password: {masked_pwd}")
     app_logger.info("==========================================")
     app_logger.info("Pool Oracle inicializado e API pronta para uso.")
 
