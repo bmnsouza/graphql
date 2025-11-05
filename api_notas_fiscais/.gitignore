@@ -1,0 +1,52 @@
+# ================================
+# PYTHON
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ================================
+# LOGS
+# ================================
+*.log
+*.out
+*.err
+logs/
+app/logs/
+*.sqlite3
+
+# ================================
+# TESTES
+# ================================
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ================================
+# EDITORES
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# BUILD / DIST / TEMP
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.mypy_cache/
+.pyre/
+.pytype/
+__pypackages__/

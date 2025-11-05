@@ -1,0 +1,8 @@
+fastapi
+strawberry-graphql[fastapi]
+oracledb
+python-dotenv
+uvicorn
+pytest
+pytest-asyncio
+httpx
